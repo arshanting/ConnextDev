@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">HOME</a>
+                        <a href="index.php">HOME</a>
                     </li>
                     <li>
                         <a href="about.html">ABOUT</a>
