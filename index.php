@@ -72,7 +72,7 @@
             <h3>Health Care Services</h3>
           </div>
           <div class="abc-image">
-            <img src="assets/Home/home_services1-img.png">
+            <img src="/assets/Home/home_services1-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
