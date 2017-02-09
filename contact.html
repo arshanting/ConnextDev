@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
-                <a href="index.html"><img id="logo" src="./assets/home/connext_logo.png"></a>
+                <a href="index.php"><img id="logo" src="./assets/home/connext_logo.png"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
