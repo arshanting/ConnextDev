@@ -86,7 +86,7 @@
             <h3>Escrow Services</h3>
           </div>
           <div class="abc-image">
-            <img src="./assets/home/home_services2-img.png">
+            <img src="assets/home/home_services2-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -100,7 +100,7 @@
             <h3>Legal Services</h3>
           </div>
           <div class="abc-image">
-            <img src="./assets/Home/home_services3-img.png">
+            <img src="assets/home/home_services3-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -114,7 +114,7 @@
             <h3>Other Services</h3>
           </div>
           <div class="abc-image">
-            <img src="./assets/Home/home_services4-img.png">
+            <img src="assets/home/home_services4-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -132,7 +132,7 @@
         <div id="temp">
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="cr-image image-left">
-              <img src="./assets/Home/go-to_careers-img.png">
+              <img src="assets/home/go-to_careers-img.png">
             </div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12">
