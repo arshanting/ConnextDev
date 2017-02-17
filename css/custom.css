@@ -29,6 +29,7 @@ body {
   border-color: #343a3d;
 }
 
+/* menuhover */
 .navbar-nav li a {
   padding-left: 20px;
   margin-left: 20px;
@@ -43,6 +44,9 @@ body {
   height: 65px;
 }
 
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:active>a,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -51,15 +55,12 @@ body {
   color: #000000;
   background-color: transparent;
 }
+/* end of hover*/
 
 /* home image*/
-.home-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  padding: 0;
-  margin: 0;
-  border: none;
+.intro-header {
+  background: no-repeat;
+  background-size: cover;
 }
 
 .intro-header .site-heading,
@@ -114,7 +115,9 @@ body {
 .abc-image>img{
   padding-top: 10px;
   padding-bottom: 10px;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .abc-desc p {
   font-family: Roboto;
@@ -345,7 +348,6 @@ hr {
   margin-left: 20%;
 }
 
-
 /* responsive */
 @media only screen and (max-width: 991px) {
   .image-left>img {
@@ -356,8 +358,6 @@ hr {
   .abc-head .abc-image .abc-desc {
     max-width: 50px
   }
-}
-@media only screen and (max-width: 767px) {
   #logo {
     margin-left: 5%;
     margin-top: 10px;
@@ -366,32 +366,38 @@ hr {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-}
-@media only screen and (max-width: 767px) {
-    .location {
+  .location {
     text-align: center;
   }
-}
-@media only screen and (max-width: 767px) {
-    .list-inline {
+  .list-inline {
     text-align: center;
   }
-}
-@media only screen and (max-width: 767px) {
-    .navbar-inverse .navbar-toggle:hover,
-    .navbar-inverse .navbar-toggle:focus {
-    background-color: #343a3d;
+  .navbar-inverse .navbar-toggle:hover,
+  .navbar-inverse .navbar-toggle:focus {
+  background-color: #343a3d;
   }
-}
-@media only screen and (max-width: 767px) {
-    .navbar-inverse .navbar-toggle {
-    background-color: #343a3d;
+  .navbar-inverse .navbar-toggle {
+  background-color: #343a3d;
   }
-}
-@media only screen and (max-width: 767px) {
-    .navbar-toggle {
-    margin-top: 25px;
-    margin-right: 30px;
-    background-image: none;
+  .navbar-toggle {
+  margin-top: 25px;
+  margin-right: 30px;
+  background-image: none;
+  }
+  .about-head>h3{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .about-desc>p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .sec-desc>p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #contact-info {
+    margin: 5%;
+    padding: 5%;
   }
 }
