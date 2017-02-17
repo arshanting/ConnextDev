@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Connext Global Solutions</title>
-
+    <link rel="shortcut icon" href="assets/home/connexticon.ico" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -26,13 +26,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
-                <a href="index.php"><img id="logo" src="./assets/home/connext_logo.png"></a>
+                <a href="index.php"><img class="img-responsive" id="logo" src="./assets/home/connext_logo.png"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <li class="active">
                         <a href="index.php">HOME</a>
                     </li>
                     <li>
@@ -67,12 +66,12 @@
     <!--company services -->
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 ">
           <div class="abc-head">
             <h3>Health Care Services</h3>
           </div>
           <div class="abc-image">
-            <img src="assets/home/home_services1-img.png">
+            <img class="img-responsive1" src="assets/home/home_services1-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -81,12 +80,12 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 ">
           <div class="abc-head">
             <h3>Escrow Services</h3>
           </div>
           <div class="abc-image">
-            <img src="assets/home/home_services2-img.png">
+            <img class="img-responsive1" src="assets/home/home_services2-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -95,12 +94,12 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 ">
           <div class="abc-head">
             <h3>Legal Services</h3>
           </div>
           <div class="abc-image">
-            <img src="assets/home/home_services3-img.png">
+            <img class="img-responsive1" src="assets/home/home_services3-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -109,12 +108,12 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 ">
           <div class="abc-head">
             <h3>Other Services</h3>
           </div>
           <div class="abc-image">
-            <img src="assets/home/home_services4-img.png">
+            <img class="img-responsive1" src="assets/home/home_services4-img.png">
           </div>
           <div class="abc-desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -131,7 +130,7 @@
       <div class="row">
         <div id="temp">
           <div class="col-md-6 col-sm-12 col-xs-12">
-            <div class="cr-image image-left">
+            <div class="cr-image image-left img-responsive1">
               <img src="assets/home/go-to_careers-img.png">
             </div>
           </div>
